@@ -1,0 +1,25 @@
+Dans une architecture d’entreprise, la surveillance de l’intégrité des fichiers est un point clé de la sécurité : elle permet de détecter des attaques comme :
+la modification de fichiers systèmes (ex : hosts, binaires, scripts) ;
+
+
+l’injection de malware ou de fichiers inconnus dans des répertoires critiques ;
+
+
+la suppression ou altération de fichiers de configuration sensibles.
+
+
+Le projet vise donc à reproduire un comportement similaire à des solutions existantes comme OSSEC ou Tripwire, mais en l’adaptant à l’environnement Windows via un script PowerShell natif, facile à déployer et à auditer
+Le projet HIDS PowerShell permet de mobiliser plusieurs compétences clés :
+Compréhension du fonctionnement d’un IDS (Intrusion Detection System) local ;
+
+
+Manipulation avancée de PowerShell (fichiers, hachage, JSON, GUI, planification, envoi d’e-mails) ;
+
+
+Durcissement et sécurisation des scripts PowerShell (droits, ACLs, credentials chiffrés) ;
+
+
+Mise en œuvre d’un système d’alerte automatisé ;
+
+
+Documentation technique et rédaction d’un rapport complet de projet.
